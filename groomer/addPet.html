@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+      
+    
+        <title>Add Pets</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    
+      
+        <!-- Custom styles for this template -->
+        <link href="./assets/css/cover.css" rel="stylesheet">
+    
+      
+      </head>
+<body>  
+     <!-- Fixed navbar -->
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="homepage.html">Just Groom</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+              
+               
+                  <li><a href="#contact">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appointments <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="appointments.html">Upcoming Appointment</a></li>
+                      <li><a href="appointments.html">Appointment History</a></li>
+                      <li><a href="addAppointment.html">New Appointment</a></li>
+                     
+                    </ul>
+                  </li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">About</a></li>
+                  <li  class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="register.html">Your file </a></li>
+                      <li><a href="pets.html">Your Pets</a></li>
+                      <li><a href="index.html">Logout</a></li>
+                      
+                    </ul>
+                  </li>
+                  <li><a href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span class="badge">2</span></a></li>
+                  
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
+      
+          <div class="row jumbotron">
+    <form action="addPet.html">
+            <div class="form-group">
+                    <h2>Add A Pet</h2>
+            </div>
+     
+            <div class="form-group">
+                        <label for="name">Your Pet Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your pet name">
+            </div>
+            <div class="form-group">
+                    <label for="breed">Breed</label>
+                    <input type="breed" class="form-control" id="breed" placeholder="Your pet breed">
+            </div>
+            <div class="form-group">
+              <label for="name">Date of Birth</label>
+              <input type="date" class="form-control" id="date" >
+            </div>
+           
+            <div class="form-group">
+            <input value="You have 0 pets added" disabled />
+            <input type="submit" class="btn btn-success" value="Add Pet" />  
+        </div>
+          </form>
+          <div class="form-group">
+                <button onclick="location.href='homepage.html'" style="text-align:center" class="btn btn-primary btn-lg btn-block"> Finish </button>
+          </div>
+        
+    </div>
+    <footer class="footer">
+            <div style="text-align: center" class="container">
+              <p >CopyRight@Team Eclipse 2018</p>
+            </div>
+     </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

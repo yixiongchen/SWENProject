@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+
+    <title>Pets</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/cover.css" rel="stylesheet">
+
+  
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="homepage.html">Just Groom</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+        
+         
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appointments <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="appointments.html">Upcoming Appointment</a></li>
+                <li><a href="appointments.html">Appointment History</a></li>
+                <li><a href="addAppointment.html">New Appointment</a></li>
+               
+              </ul>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li  class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="register.html">Your file </a></li>
+                <li><a href="pets.html">Your Pets</a></li>
+                <li><a href="index.html">Logout</a></li>
+                
+              </ul>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span><span class="badge">2</span></a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+            <div class="row jumbotron">
+                    <div class="panel panel-success">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading">Your Pets information</div>
+                            <div class="panel-body">
+                              <p>Your Pets</p>
+                            </div>
+                          
+                            <!-- Table -->
+                            <table class="table">
+                                    <tr>
+                                            <th>Pet Name</th>
+                                            <th>Breed</th> 
+                                            <th>Date of Birth</th>
+                                            <th>Operation</th>
+                                          </tr>
+                                          <tr>
+                                            <td>Tom</td>
+                                            <td>Haskey</td> 
+                                            <td>2016-12-01</td>
+                                            <td>
+                                                <a href="editPet.html"  class="btn btn-success">Edit</a>
+                                                <a href="pets.html"  class="btn btn-danger">Delete</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>Tom</td>
+                                            <td>Haskey</td> 
+                                            <td>2016-12-01</td>
+                                            <td>
+                                                <a href="editPet.html"  class="btn btn-success">Edit</a>
+                                                <a href="pets.html"  class="btn btn-danger">Delete</a>
+                                            </td>
+                                        </tr>
+                                         
+                        
+                            </table>
+                      
+                          </div>
+      
+                          <a href="addPet.html"  class="btn btn-primary btn-lg ">Add more Pets</a>
+      </div>
+     </div>
+
+    </div> <!-- /container -->
+    <footer class="footer">
+            <div style="text-align: center" class="container">
+              <p >CopyRight@Team Eclipse 2018</p>
+            </div>
+     </footer>
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </body>
+</html>
+<!--
+    1. navgational bar
+    2. buttons for check current appointements, appointment history, appointment reminder, edit personal information
+    3. make picture slider to demonstrate pet photos
+    4. client personal homepage
+-->
